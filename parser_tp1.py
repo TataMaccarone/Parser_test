@@ -18,8 +18,11 @@ def genDerivaciones(topePila, prodAnterior, derivacion)
 # El EOF es el simbolo #
 
 # tabla[Columna][Fila]
+#[TEMP] Los que van en minuscula son no terminales, los que van en mayuscula son terminales. Funciona tal que asi: En el caso de program que es un NT, deriva en ENTONCES o
+#SINO, etc etc. Esos serian los simbolos directrices. Luego se continua con un NT estructura o program de nuevo.
 tabla = {
     "program": {
+        
         "ENTONCES" :     [ "estructura" , "program"],
         "SINO" :         [ "estructura" , "program"],
         "FINSI" :        [ "estructura" , "program"],
