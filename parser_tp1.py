@@ -43,6 +43,6 @@ tabla = {
     "expresion":{
         "(" : []
 
-
+#QEPD Iorio
 
 VT = ["ENTONCES", "SINO", "FINSI", "REPETIR", "HASTA", "SI", "+", "*", "LEER", "MOSTAR", "FUN", "FINFUC", "=", "," , ";", ">,<,<=,>=", "NUMERO", "ID"]
